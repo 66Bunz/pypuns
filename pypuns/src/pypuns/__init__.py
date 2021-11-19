@@ -1,1 +1,1 @@
-from pypuns.main import * # TODO: sostituire import * con import pypuns.nome_funzione
+from pypuns.main import get_pun # TODO: sostituire import * con import pypuns.nome_funzione

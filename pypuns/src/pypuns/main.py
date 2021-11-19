@@ -1,45 +1,49 @@
 import random
 
 
-#Gets all jokes from a category
-def get_jokes(language='en', category='neutral'):
+#Gets all puns from a category
+def get_all_puns(language='en', category='all', puns='default'):
     """
     Parameters
     ----------
     category: str
-        Choices: 'neutral', 'chuck', 'all', 'twister'
-    lang: str
-        Choices: 'en', 'de', 'es', 'gl', 'eu', 'it'
+        Choices: 'all', 'blackhumour', 'thonguetwist', 'jokes'
+    language: str
+        Choices: 'en', 'it', 'es', 'gl', 'eu', 'de'
+    puns: str
+        Choices: 'default', path to puns .json file
     Returns
     -------
-    jokes: list
+    puns: list
     """
 
-    if language not in all_jokes:
-        raise LanguageNotFoundError('No such language %s' % language)
+    if language not in all_puns:
+        raise LanguageNotFoundError(f'Currently the {language} language is not supported. Submit your puns for this language on github!')
 
-    jokes = all_jokes[language]
+    puns = all_puns[language]
 
-    if category not in jokes:
-        raise CategoryNotFoundError('No such category %s in language %s' % (category, language))
+    if category not in puns:
+        raise CategoryNotFoundError(f'Currently the {category} category is not supported. Submit new categories for the {language} language on github!)
 
-    return jokes[category]
+    return puns[category]
 
 
 #Random selection of a joke
-def get_joke(language='en', category='neutral'):
+def get_pun(language='en', category='all', puns='default'):
     """
     Parameters
     ----------
     category: str
-        Choices: 'neutral', 'chuck', 'all', 'twister'
+        Choices: 'all', 'blackhumour', 'thonguetwist', 'jokes'
     lang: str
-        Choices: 'en', 'de', 'es', 'gl', 'eu', 'it'
+        Choices: 'en', 'it', 'es', 'gl', 'eu', 'de'
+    puns: str
+        Choices: 'default', path to puns .json file
     Returns
     -------
-    joke: str
+    pun: str
     """
 
-    jokes = get_jokes(language, category)
-    return random.choice(jokes)
+    pun = get_all_puns(language, category, puns)
+    return random.choice(pun)
 

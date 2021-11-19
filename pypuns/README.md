@@ -1,6 +1,23 @@
-# A sample Python project
+# PyPuns
 
 ![Python Logo](https://www.python.org/static/community_logos/python-logo.png "Sample inline image")
+
+'subtitle'  
+Puns for everyone to laugh at.
+
+
+
+This library was made to fill the gaps left by [PyJokes] for non-programming puns.
+
+github badges
+
+Installation
+
+Usage
+
+Contributors
+
+Contributing
 
 A sample project that exists as an aid to the [Python Packaging User
 Guide][packaging guide]'s [Tutorial on Packaging and Distributing
