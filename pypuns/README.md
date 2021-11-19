@@ -15,7 +15,7 @@ Installation
 
 Usage
 
-Contributors
+Contributorsed
 
 Contributing
 
