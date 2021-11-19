@@ -42,3 +42,4 @@ def get_joke(language='en', category='neutral'):
 
     jokes = get_jokes(language, category)
     return random.choice(jokes)
+
