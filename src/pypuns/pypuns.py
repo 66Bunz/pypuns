@@ -11,7 +11,6 @@ german = json.load(open('./pypuns/src/pypuns/puns/de.json'))
 all_puns = {
     "it": italian,
     "en": english,
-    "de": german
 }
 
 # print(all_puns)
@@ -76,4 +75,4 @@ def get_pun(language='it', category='all_puns', puns_file='default'):
     return random.choice(pun)
 
 
-print = get_pun()
+get_pun()
