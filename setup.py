@@ -18,7 +18,7 @@ setup(
     # TODO: Add url
     url='',
     author='Bunz',
-    author_email='<66bunz@gmail.com>',
+    author_email='66bunz@gmail.com',
     description=DESCRIPTION,
     long_description_content_type='text/markdown',
     long_description=long_description,
@@ -40,9 +40,9 @@ setup(
         'Operating System :: Microsoft :: Windows',
     ],
     project_urls={  # Optional
-        'Bug Reports': 'https://github.com/pypa/sampleproject/issues',
-        'Funding': 'https://donate.pypi.org',
-        'Say Thanks!': 'http://saythanks.io/to/example',
-        'Source': 'https://github.com/pypa/sampleproject/',
+        'Bug Reports': 'https://github.com/PyPuns/pypuns/issues',
+        'Funding': 'https://www.buymeacoffee.com/66bunz',
+        'Say Thanks!': 'https://saythanks.io/to/66Bunz',
+        'Source': 'https://github.com/PyPuns/pypuns',
     },
 )
