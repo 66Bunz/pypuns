@@ -7,41 +7,49 @@
 github badges
 
 
-PyPuns is a library that make you able to get random puns divided in various categories and languages.  
-This library was made to fill the gaps left by [PyJokes] for non-programming puns.
+[About](#about) | [Installation](#installation) | [Usage](#usage) | [Contributing](#contributing) | [Contributors](#contributors) | [Contacts](#contacts) | [What's new?](#whats-new) 
 
-Table of contents:  
 
 ---
 
-- Installation:  
-come installare con Pip
 
-- Usage:  
-API references, lista categorie/lingue, esempi di utilizzo
+## About
+PyPuns is a library that make you able to get random puns divided in various categories and languages.  
+This library was made to fill the gaps left by [PyJokes][pyjokes] for non-programming puns.
 
-- Contributing:  
-You can contribute to this project by adding new puns or by improving existing ones for the existing languages, or adding puns for a new language. Take a look at [Contributing.md] for more information.
+## Installation:  
+How to install with Pip. 
 
-- Contributors:
-(list of all contributors)
+## Usage:  
+API references, categories/languages lists, usage examples
 
-- Contacts:
-    - Gmail (66bunz@gmail.com)
-    - DeviantArt (https://gum.co/AqLYb)
-    - Github (https://github.com/66Bunz)
-    - BuyMeACoffee (https://www.buymeacoffee.com/66bunz)
-    - SayThanks (https://saythanks.io/to/66Bunz)
-    - Twitter
-    - Reddit
+## Contributing:  
+You can contribute to this project by adding new puns or by improving existing ones for the existing languages, or adding puns for a new language. Take a look at [CONTRIBUTING.md][contributing] for more information.
+
+## Contributors:
+- Bunz
+
+## Contacts:
+- [Gmail][gmail]: 66bunz@gmail.com
+- [DeviantArt][deviantart]: bunz66
+- [Github][github]: 66Bunz
+- [BuyMeACoffee][buymeacoffee]: 66bunz
+- [SayThanks][saythanks]: 66Bunz
+- [Twitter][twitter]: bunz66
+
+## What's New:
+First Commit 
 
 
-    --- forse---
-    - Paypal 
-    - Facebook
-    - Instagram
-    - Patreon
 
-- What's New:
+[pyjokes]: https://pypi.org/project/pyjokes/
+[contributing]: CONTRIBUTING.md
+[gmail]: mailto:66bunz@gmail.com
+[deviantart]: https://www.deviantart.com/bunz66
+[github]: https://github.com/66Bunz
+[buymeacoffee]: https://www.buymeacoffee.com/66bunz
+[saythanks]: https://saythanks.io/to/66Bunz
+[twitter]: ttps://twitter.com/bunz66
+
 
 
