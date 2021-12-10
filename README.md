@@ -21,7 +21,7 @@ This library was made to fill the gaps left by [PyJokes][pyjokes] for non-progra
 How to install with Pip. 
 
 ## Usage:  
-API references, categories/languages lists, usage examples
+API references, categories/languages tables, usage examples
 
 ## Contributing:  
 You can contribute to this project by adding new puns or by improving existing ones for the existing languages, or adding puns for a new language. Take a look at [CONTRIBUTING.md][contributing] for more information.
