@@ -5,7 +5,7 @@ For PyPuns we use a custom Versioning Scheme that is described after.
 
 ## Description
 
-The version number we use is 
+The version number we use is:  
 ```MAJOR.MINOR.LANGUAGE_NUMBER.LANGUAGE_INSERTIONS```
 
 You need to increment the numbers for:
