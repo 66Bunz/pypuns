@@ -19,8 +19,6 @@
 [![PyPI status](https://img.shields.io/pypi/status/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
 
 
-
-
 [About](#about) | [Installation](#installation) | [Usage](#usage) | [Contributing](#contributing) | [Contributors](#contributors) | [Contacts](#contacts) | [What's new?](#whats-new)
 
 
