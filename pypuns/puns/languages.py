@@ -1,10 +1,14 @@
-import json
+# 
 
-italian = json.load(open('./pypuns/puns/it.json'))
-english = json.load(open('./pypuns/puns/en.json'))
-# german = json.load(open('./pypuns/puns/de.json'))
+from .en import en_puns
+from .it import it_puns
+# Add language files here in the same way
+
 
 all_languages = {
-    "it": italian,
-    "en": english,
+    'en': en_puns,
+    'it': it_puns,
+    # Add languages here in the same way
 }
+
+

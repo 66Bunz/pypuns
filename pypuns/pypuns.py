@@ -1,13 +1,10 @@
 ﻿import random
-import json
 
 from .puns.languages import all_languages
 
 
-
 class LanguageNotFoundError(Exception):
     pass
-
 
 class CategoryNotFoundError(Exception):
     pass
@@ -15,18 +12,19 @@ class CategoryNotFoundError(Exception):
 
 
 # Gets all puns of a category.
-def get_all_puns(language='en', category='puns', puns_file='default'):
+def get_all_puns(language='en', category='all', puns_file='default'):
     """
-    Parameters
-    ----------
+    PARAMETERS
+    __________
     language: str
-        Choices: 'en', 'it'
+        possibilities: 'en', 'it'
     category: str
-        Choices: 'all', 'blackhumor', 'thonguetwist', 'puns'
+        possibilities: 'all', 'blackhumor', 'thonguetwist', 'puns'
     puns_file: str
-        Choices: 'default'
-    Returns
-    -------
+        possibilities: 'default'
+    ----------------------------
+    OUTPUT
+    ______
     puns: list
     """
 
@@ -43,22 +41,22 @@ def get_all_puns(language='en', category='puns', puns_file='default'):
 
 
 # Random selection of a pun from all puns of a category.
-def get_pun(language='en', category='puns', puns_file='default'):
+def get_pun(language='en', category='all', puns_file='default'):
     """
-    Parameters
-    ----------
+    PARAMETERS
+    __________
     language: str
-        Choices: 'en', 'it'
+        possibilities: 'en', 'it'
     category: str
-        Choices: 'all', 'blackhumor', 'thonguetwist', 'puns'
+        possibilities: 'all', 'blackhumor', 'thonguetwist', 'puns'
     puns_file: str
-        Choices: 'default'
-    Returns
-    -------
+        possibilities: 'default'
+    ----------------------------
+    OUTPUT
+    ______
     pun: str
     """
 
     pun = get_all_puns(language, category, puns_file)
     
     return random.choice(pun)
-

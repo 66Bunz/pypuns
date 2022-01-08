@@ -54,11 +54,13 @@ You can contribute to this project by adding new puns or by improving existing o
 ## Contacts
 
 - [Gmail][gmail]: 66bunz@gmail.com
+- [Protonmail][protonmail]: bunzen@protonmail.com
 - [DeviantArt][deviantart]: bunz66
 - [Github][github]: 66Bunz
 - [BuyMeACoffee][buymeacoffee]: 66bunz
 - [SayThanks][saythanks]: 66Bunz
-- [Twitter][twitter]: bunz66
+- [Twitter][twitter]: 66Bunz
+- [Facebook][facebook]: Bunz66
 
 
 ## What's New
@@ -67,10 +69,12 @@ First Commit
 
 
 [pyjokes]: https://pypi.org/project/pyjokes/
-[contributing]: CONTRIBUTING.md
+[contributing]: https://github.com/PyPuns/PyPuns/blob/main/CONTRIBUTING.md
 [gmail]: mailto:66bunz@gmail.com
+[protonmail]: mailto:bunzen@protonmail.com
 [deviantart]: https://www.deviantart.com/bunz66
 [github]: https://github.com/66Bunz
 [buymeacoffee]: https://www.buymeacoffee.com/66bunz
 [saythanks]: https://saythanks.io/to/66Bunz
-[twitter]: ttps://twitter.com/bunz66
+[twitter]: ttps://twitter.com/66Bunz
+[facebook]: https://www.facebook.com/Bunz66
